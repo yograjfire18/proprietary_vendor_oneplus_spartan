@@ -86,13 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.semco_imx586.bin \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti.tuned.shine_gc5035.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.shine_gc5035.bin \
     vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.truly_imx471.bin \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.gc02m1b.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.gc5035.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.gc5035.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.imx471.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.imx481.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/com.qti_lemonades.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti_lemonades.sensor.imx586.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/components/com.oneplus.node.cfrsnapshot.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oneplus.node.cfrsnapshot.so \
-    vendor/oneplus/lemonades/proprietary/odm/lib64/camera/components/com.oneplus.node.cfrvideo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oneplus.node.cfrvideo.so \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b00 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b01 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9638.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9638.b02 \
@@ -111,5 +104,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.b06 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.b07 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.mdt \
-    vendor/oneplus/lemonades/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
     vendor/oneplus/lemonades/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc
+
+PRODUCT_PACKAGES += \
+    com.qti_lemonades.sensor.gc02m1b \
+    com.qti_lemonades.sensor.gc5035 \
+    com.qti_lemonades.sensor.imx471 \
+    com.qti_lemonades.sensor.imx481 \
+    com.qti_lemonades.sensor.imx586 \
+    com.oneplus.node.cfrsnapshot \
+    com.oneplus.node.cfrvideo \
+    android.hardware.keymaster@4.1-service-qti
