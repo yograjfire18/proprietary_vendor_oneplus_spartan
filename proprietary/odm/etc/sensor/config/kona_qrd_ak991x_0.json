@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["HDK"],
+    "hw_platform": ["MTP"],
     "soc_id": ["356"]
   },
     "ak0991x_0":{
@@ -41,8 +41,8 @@
     "owner": "sns_ak0991x",
     ".config":{
       "owner": "sns_ak0991x",
-      "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
+      "bus_type":{ "type": "int", "ver": "1",
+        "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
         "data": "1"
@@ -50,14 +50,11 @@
       "slave_config":{ "type": "int", "ver": "0",
         "data": "12"
       },
-      "i3c_address":{ "type": "int", "ver": "0",
-        "data": "30"
-      },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
       },
-      "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+      "max_bus_speed_khz":{ "type": "int", "ver": "1",
+        "data": "400"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -92,13 +89,13 @@
     },
     ".orient":{
       "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+      "x":{ "type": "str", "ver": "1",
+        "data": "+x"
       },
-      "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+      "y":{ "type": "str", "ver": "1",
+        "data": "+y"
       },
-      "z":{ "type": "str", "ver": "0",
+      "z":{ "type": "str", "ver": "1",
         "data": "+z"
       }
     },
@@ -108,32 +105,32 @@
         "owner": "sns_ak0991x",
         ".corr_mat":{
           "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.9442"
+          "0_0":{ "type": "flt", "ver": "1",
+            "data": "1.0"
           },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "-0.0118"
+          "0_1":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0553"
+          "0_2":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "-0.0118"
+          "1_0":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0031"
+          "1_1":{ "type": "flt", "ver": "1",
+            "data": "1.0"
           },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": "0.0098"
+          "1_2":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0553"
+          "2_0":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.0098"
+          "2_1":{ "type": "flt", "ver": "1",
+            "data": "0.0"
           },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0527"
+          "2_2":{ "type": "flt", "ver": "1",
+            "data": "1.0"
           }
         },
         ".bias":{
